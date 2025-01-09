@@ -19,8 +19,8 @@ This repository contains a simple, text-based **Quiz Game** built with Python. T
 
 Clone this repository:
 
-git clone https://github.com/MatanKaufman1/100-days-of-code.git
-cd 100-days-of-code/day17
+git clone https://github.com/MatanKaufman1/100-days-of-code.git.
+    cd 100-days-of-code/day17
 
 Run the main.py file:
 
@@ -36,8 +36,8 @@ You are right!
 
 ## Concepts Demonstrated
 
-    Object-Oriented Programming: Encapsulation of data and logic into Questions and QuizBrain classes.
-    Data Management: Storing and retrieving question data from a list of dictionaries.
-    User Interaction: Prompting for and validating user input.
+Object-Oriented Programming: Encapsulation of data and logic into Questions and QuizBrain classes.
+Data Management: Storing and retrieving question data from a list of dictionaries.
+User Interaction: Prompting for and validating user input.
 
 
