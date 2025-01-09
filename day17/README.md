@@ -20,7 +20,8 @@ This repository contains a simple, text-based **Quiz Game** built with Python. T
 Clone this repository:
 
 git clone https://github.com/MatanKaufman1/100-days-of-code.git.
-    cd 100-days-of-code/day17
+    
+cd 100-days-of-code/day17
 
 Run the main.py file:
 
@@ -28,11 +29,10 @@ Run the main.py file:
 
     Answer the questions as prompted, typing True or False.
 
-### Example Gameplay
+## Example Gameplay
 
 Q.1: A slug's blood is green. (True/False): True
 You are right!
-...
 
 ## Concepts Demonstrated
 
