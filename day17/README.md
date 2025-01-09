@@ -37,7 +37,9 @@ You are right!
 ## Concepts Demonstrated
 
 Object-Oriented Programming: Encapsulation of data and logic into Questions and QuizBrain classes.
+
 Data Management: Storing and retrieving question data from a list of dictionaries.
+
 User Interaction: Prompting for and validating user input.
 
 
