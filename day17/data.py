@@ -1,16 +1,3 @@
 question_data = [
-    {"text": "A slug's blood is green.", "answer": "True"},
-    {"text": "The loudest animal is the African Elephant.", "answer": "False"},
-    {"text": "Approximately one quarter of human bones are in the feet.", "answer": "True"},
-    {"text": "The total surface area of a human lungs is the size of a football pitch.", "answer": "True"},
-    {"text": "In West Virginia, USA, if you accidentally hit an animal with your car, "
-        " you are free to take it home to eat.", "answer": "True"},
-    {"text": "In London, UK, if you happen to die in the House of Parliament,"
-        " you are entitled to a state funeral.", "answer": "False"},
-    {"text": "It is illegal to pee in the Ocean in Portugal.", "answer": "True"},
-    {"text": "You can lead a cow down stairs but not up stairs.", "answer": "False"},
-    {"text": "Google was originally called 'Backrub'.", "answer": "True"},
-    {"text": "Buzz Aldrin's mother's maiden name was 'Moon'.", "answer": "True"},
-    {"text": "No piece of square dry paper can be folded in half more than 7 times.", "answer": "False"},
-    {"text": "A few ounces of chocolate can to kill a small dog.", "answer": "True"}
+   {"response_code":0,"results":[{"type":"boolean","difficulty":"medium","category":"Entertainment: Music","question":"Norwegian producer Kygo released a remix of the song &quot;Sexual Healing&quot; by Marvin Gaye.","correct_answer":"True","incorrect_answers":["False"]},{"type":"boolean","difficulty":"easy","category":"Entertainment: Film","question":"Samuel L. Jackson had the words, &#039;Bad Motherf*cker&#039; in-scripted on his lightsaber during the filming of Star Wars.","correct_answer":"True","incorrect_answers":["False"]},{"type":"boolean","difficulty":"easy","category":"Science: Mathematics","question":"The &#039;Squaring the Circle&#039; problem is solvable.","correct_answer":"False","incorrect_answers":["True"]},{"type":"boolean","difficulty":"easy","category":"General Knowledge","question":"The National Animal of Scotland is the Unicorn.","correct_answer":"True","incorrect_answers":["False"]},{"type":"boolean","difficulty":"medium","category":"Entertainment: Cartoon &amp; Animations","question":"In &quot;Avatar: The Last Airbender&quot; and &quot;The Legend of Korra&quot;, Lavabending is a specialized bending technique of Firebending.","correct_answer":"False","incorrect_answers":["True"]},{"type":"boolean","difficulty":"easy","category":"Sports","question":"There are a total of 20 races in Formula One 2016 season.","correct_answer":"False","incorrect_answers":["True"]},{"type":"boolean","difficulty":"medium","category":"Animals","question":"The Platypus is a mammal.","correct_answer":"True","incorrect_answers":["False"]},{"type":"boolean","difficulty":"medium","category":"History","question":"The M41 Walker Bulldog remains in service in some countries to this day.","correct_answer":"True","incorrect_answers":["False"]},{"type":"boolean","difficulty":"easy","category":"History","question":"In World War ll, Great Britian used inflatable tanks on the ports of Great Britain to divert Hitler away from Normandy\/D-day landing.","correct_answer":"True","incorrect_answers":["False"]},{"type":"boolean","difficulty":"medium","category":"Entertainment: Video Games","question":"The scrapped Sonic the Hedgehog 2 level &quot;Hidden Palace Zone&quot; was later reused in the iOS port of the game. ","correct_answer":"True","incorrect_answers":["False"]}]}
 ]
