@@ -1,3 +1,4 @@
+import os
 class QuizBrain:
     def __init__(self, q_list):
         self.question_number = 0
@@ -15,6 +16,7 @@ class QuizBrain:
         if user_answer.lower() == correct_answer.lower():
             self.score += 1
             print("You are right!")
+            print(f"Your current score is: {self.score}/{q_number}")
             print("\n")
         else:
             print("You are wrong.")
