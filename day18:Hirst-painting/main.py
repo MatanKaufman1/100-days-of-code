@@ -11,14 +11,14 @@ colors_list = [(152, 56, 129), (130, 84, 216), (121, 27, 85), (178, 86, 164), (7
 arrow.speed("fastest")
 arrow.hideturtle()
 arrow.penup()
-screen.screensize(20, 40)
+screen.screensize(0, 0, '#FFFFE0')
 arrow.setheading(225)
 arrow.forward(350)
 arrow.setheading(0)
 number_of_dots = 400
 
 for dot_count in range(1, number_of_dots +1):
-    arrow.dot(20, random.choice(colors_list))
+    arrow.dot(19, random.choice(colors_list))
     arrow.forward(25)
     if dot_count % 20 == 0:
         arrow.setheading(90)
