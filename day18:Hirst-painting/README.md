@@ -23,7 +23,7 @@ Make sure you have Python 3 installed, then install the required libraries:
 
     pip install colorgram.py
 
-🚀 How to use:
+## 🚀 How to use:
 1️⃣ Place an Image
 
 Add an image named image.jpeg in the project directory. This image will be used to extract colors.
