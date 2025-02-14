@@ -7,14 +7,14 @@ This project generates a **Hirst-style dot painting** using Python's `turtle` mo
 - Uses `turtle` graphics to create a dot painting
 - Generates a grid of colorful dots randomly picked from the extracted colors
 
-## 🛠️ Installation
+## 🛠️ Installation:
 
-### 1️⃣ Clone the Repository
-```sh
-git clone https://github.com/your-username/Hirst-painting.git
+### 1️⃣ Clone the Repository:
+
+git clone https://github.com/MatanKaufman1/Hirst-painting.git
 cd Hirst-painting
 
-2️⃣ Install Dependencies
+2️⃣ Install Dependencies:
 
 Make sure you have Python 3 installed, then install the required libraries:
 
