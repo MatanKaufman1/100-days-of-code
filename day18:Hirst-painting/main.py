@@ -1,12 +1,13 @@
 import turtle as turtle_module
 import random
+from colorsExtract import color_extract
 
 turtle_module.colormode(255)
 screen = turtle_module.Screen()
 screen.setup(width=600, height=800)
 
 arrow = turtle_module.Turtle()
-colors_list = [(152, 56, 129), (130, 84, 216), (121, 27, 85), (178, 86, 164), (72, 25, 148), (217, 119, 186), (251, 151, 197), (96, 8, 50), (101, 53, 184), (167, 116, 239), (249, 125, 98), (181, 54, 43), (219, 87, 70), (145, 26, 22), (254, 173, 226), (254, 148, 135), (86, 0, 0), (190, 133, 251)]
+colors_list = color_extract()
 
 arrow.speed("fastest")
 arrow.hideturtle()
