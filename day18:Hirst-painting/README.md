@@ -36,7 +36,7 @@ A window will open, displaying the Hirst-style dot painting.
 📝 Project Structure:
 
     Hirst-painting/
-    │── color_extract.py   # Extracts colors from the image
+    │── colorsExtract.py   # Extracts colors from the image
     │── main.py            # Generates and displays the dot painting
     │── image.jpeg         # Source image for color extraction
     │── README.md          # Project documentation
@@ -50,7 +50,7 @@ The program creates an artistic dot pattern like this:
 
 📌 Customization
 
-    Change NUM_OF_COLORS in color_extract.py to extract more or fewer colors.
+    Change NUM_OF_COLORS in colorsExtract.py to extract more or fewer colors.
     Modify the number_of_dots variable in main.py to create a larger or smaller painting.
     Adjust dot size and spacing by changing:
 
