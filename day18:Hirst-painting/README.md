@@ -32,6 +32,7 @@ Add an image named image.jpeg in the project directory. This image will be used 
     python main.py
 
 A window will open, displaying the Hirst-style dot painting.
+
 📝 Project Structure:
 
     Hirst-painting/
@@ -43,7 +44,7 @@ A window will open, displaying the Hirst-style dot painting.
 🎯 Example Output:
 Here is an example of the generated Hirst-style dot painting:
 
-![Example Output](example.jpg)
+![Example Output](example.png)
 
 The program creates an artistic dot pattern like this:
 
