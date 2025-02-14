@@ -2,6 +2,9 @@
 
 This project generates a **Hirst-style dot painting** using Python's `turtle` module. The colors are extracted from an image using the `colorgram` library and then used to create a randomized dot pattern inspired by **Damien Hirst's** famous spot paintings.
 
+## Reference image:
+![Example Output](reference-image.jpg)
+
 ## 📌 Features
 - Extracts colors from an image (`image.jpeg`) using `colorgram`
 - Uses `turtle` graphics to create a dot painting
@@ -11,14 +14,14 @@ This project generates a **Hirst-style dot painting** using Python's `turtle` mo
 
 ### 1️⃣ Clone the Repository:
 
-git clone https://github.com/MatanKaufman1/Hirst-painting.git
-cd Hirst-painting
+    git clone https://github.com/MatanKaufman1/Hirst-painting.git
+    cd Hirst-painting
 
 2️⃣ Install Dependencies:
 
 Make sure you have Python 3 installed, then install the required libraries:
 
-pip install colorgram.py
+    pip install colorgram.py
 
 🚀 Usage
 1️⃣ Place an Image
@@ -26,18 +29,21 @@ pip install colorgram.py
 Add an image named image.jpeg in the project directory. This image will be used to extract colors.
 2️⃣ Run the Program
 
-python main.py
+    python main.py
 
 A window will open, displaying the Hirst-style dot painting.
-📝 Project Structure
+📝 Project Structure:
 
-Hirst-painting/
-│── color_extract.py   # Extracts colors from the image
-│── main.py            # Generates and displays the dot painting
-│── image.jpeg         # Source image for color extraction
-│── README.md          # Project documentation
+    Hirst-painting/
+    │── color_extract.py   # Extracts colors from the image
+    │── main.py            # Generates and displays the dot painting
+    │── image.jpeg         # Source image for color extraction
+    │── README.md          # Project documentation
 
-🎯 Example Output
+🎯 Example Output:
+Here is an example of the generated Hirst-style dot painting:
+
+![Example Output](example.jpg)
 
 The program creates an artistic dot pattern like this:
 
