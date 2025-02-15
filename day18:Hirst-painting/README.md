@@ -42,7 +42,8 @@ A window will open, displaying the Hirst-style dot painting.
     │── README.md          # Project documentation
 
 🎯 Example Output:
-Here is an example of the generated Hirst-style dot painting:
+Here is an example of the generated Hirst-style dot painting
+
 The program creates an artistic dot pattern like this:
 
 ![Example Output](example.png)
