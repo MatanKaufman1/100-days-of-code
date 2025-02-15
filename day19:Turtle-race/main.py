@@ -1,5 +1,3 @@
-import turtle
-from mimetypes import inited
 from turtle import Turtle, Screen
 import random
 
@@ -33,6 +31,5 @@ while is_race_on:
 
         rand_distance = random.randint(0, 10)
         turtle.forward(rand_distance)
-
 
 screen.exitonclick()
