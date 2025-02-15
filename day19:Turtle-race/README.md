@@ -1,10 +1,10 @@
 # Turtle Race Game 🐢
 
-## This is a fun turtle race simulation built using Python's turtle module.
+This is a fun turtle race simulation built using Python's turtle module.
 The user bets on a turtle color before the race begins, and the turtles move randomly toward the finish line.
 If the chosen turtle wins, the user wins!
 
-🎮 How It Works:
+## 🎮 How It Works:
 
 The game displays six turtles in different colors:
 Red, Green, Yellow, Blue, Orange, and Purple.
@@ -13,7 +13,7 @@ The turtles start racing with random movements.
 The first turtle to cross the finish line wins.
 The program checks if the user's bet matches the winner and prints the result.
 
-📌 Features:
+## 📌 Features:
 
 ✔User can place a bet before the race.
 
@@ -21,7 +21,7 @@ The program checks if the user's bet matches the winner and prints the result.
 
 ✔The game displays the winning turtle's color.
 
-🛠 Installation:
+## 🛠 Installation:
 1️⃣ Clone the Repository:
 
 git clone https://github.com/MatanKaufman1/100-days-of-code.git
@@ -32,22 +32,22 @@ cd day19:Turtle-race
 Python's turtle module is included by default, so no extra installation is needed.
 Just ensure you have Python installed.
 
-3️⃣ Run the Game:
+## 3️⃣ Run the Game:
 
 python main.py
 
-📝 Project Structure:
+## 📝 Project Structure:
 
 turtle-race/
 │── main.py         # Runs the turtle race game
 │── README.md       # Project documentation
 
-🎯 Customization:
+## 🎯 Customization:
 
     Change the number of turtles by modifying colors and positions lists.
     Adjust the turtle speed by modifying rand_distance = random.randint(0, 10).
     Change the screen size with screen.setup(width, height).
 
-🤝 Contributing:
+## 🤝 Contributing:
 
 Feel free to fork the project, add new features, or modify the racing mechanics. Contributions are welcome!
