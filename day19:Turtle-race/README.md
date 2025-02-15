@@ -15,9 +15,9 @@ The program checks if the user's bet matches the winner and prints the result.
 
 📌 Features:
 
-✔️ User can place a bet before the race.
-✔️ Turtles move randomly, making the race unpredictable.
-✔️ The game displays the winning turtle's color.
+✔User can place a bet before the race.
+✔Turtles move randomly, making the race unpredictable.
+✔The game displays the winning turtle's color.
 
 🛠 Installation:
 1️⃣ Clone the Repository:
