@@ -40,9 +40,7 @@ A window will open, displaying the Hirst-style dot painting.
     │── image.jpeg         # Source image for color extraction
     │── README.md          # Project documentation
 
-🎯 Example Output:
-Here is an example of the generated Hirst-style dot painting:
-
+## Example output:
 ![Example Output](example.jpg)
 
 The program creates an artistic dot pattern like this:
