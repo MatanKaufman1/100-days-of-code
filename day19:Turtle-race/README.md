@@ -37,17 +37,13 @@ Just ensure you have Python installed.
 
         python main.py
 
-## 📝 Project Structure:
-
-turtle-race/
-│── main.py
-│── README.md
-
 ## 🎯 Customization:
 
-    Change the number of turtles by modifying colors and positions lists.
-    Adjust the turtle speed by modifying rand_distance = random.randint(0, 10).
-    Change the screen size with screen.setup(width, height).
+Change the number of turtles by modifying colors and positions lists.
+
+Adjust the turtle speed by modifying rand_distance = random.randint(0, 10).
+
+Change the screen size with screen.setup(width, height).
 
 ## 🤝 Contributing:
 
