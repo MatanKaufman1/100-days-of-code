@@ -25,6 +25,7 @@ The program checks if the user's bet matches the winner and prints the result.
 1️⃣ Clone the Repository:
 
 git clone https://github.com/MatanKaufman1/100-days-of-code.git
+
 cd day19:Turtle-race
 
 2️⃣ Install Dependencies:
@@ -34,13 +35,13 @@ Just ensure you have Python installed.
 
 ## 3️⃣ Run the Game:
 
-python main.py
+        python main.py
 
 ## 📝 Project Structure:
 
 turtle-race/
-│── main.py         # Runs the turtle race game
-│── README.md       # Project documentation
+│── main.py
+│── README.md
 
 ## 🎯 Customization:
 
