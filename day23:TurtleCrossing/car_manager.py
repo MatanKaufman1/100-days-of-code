@@ -1,4 +1,5 @@
 from turtle import Turtle
+from scoreboard import Scoreboard
 import random
 
 COLORS = ["red", "orange", "yellow", "green", "blue", "purple"]
@@ -29,6 +30,13 @@ class CarManager():
     def cars_move(self):
         for car in self.all_cars:
             car.forward(STARTING_MOVE_DISTANCE)
+            if car.xcor() < -290:
+                new_y = random.randint(-260, 270)
+                car.setposition(RESPOND_X, new_y)
+
+    def new_level(self):
+        for car in self.all_cars:
+            car.forward(STARTING_MOVE_DISTANCE + MOVE_INCREMENT)
             if car.xcor() < -290:
                 new_y = random.randint(-260, 270)
                 car.setposition(RESPOND_X, new_y)

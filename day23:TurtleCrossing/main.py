@@ -10,7 +10,7 @@ screen.tracer(0)
 screen.tracer(0)
 player = Player()
 cars = CarManager()
-score = Scoreboard
+score = Scoreboard()
 
 # keyboard move:
 screen.listen()
@@ -32,7 +32,10 @@ while game_is_on:
 
     # Detect player at the finish-line:
     if player.ycor() > 280:
-        game_is_on = False
-        score.winner()
+        player.go_to_start()
+        cars.new_level()
+        score.increase_level()
+        score.update_score()
+
 
 screen.exitonclick()

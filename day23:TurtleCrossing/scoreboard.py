@@ -1,24 +1,30 @@
 from turtle import  Turtle
 
 
-FONT = ("Courier", 24, "normal")
-POSITION = (0, 260)
+FONT = ("Courier", 20, "normal")
+POSITION = (-200, 260)
 
 class Scoreboard(Turtle):
     def __init__(self):
         super().__init__()
-        self.color("white")
+        self.hideturtle()
+        self.color("black")
         self.penup()
-        self.score = 0
+        self.level = 1
         self.setposition(POSITION)
-        self.write(self.winner(), align="center", font=FONT)
+        self.update_score()
 
-
-    def winner(self):
+    def update_score(self):
         self.clear()
-        self.score += 1
+        self.write(f"Level: {self.level}", align="center", font=FONT)
+
+    def increase_level(self):
+        self.level +=1
+        self.update_score()
 
     def game_over(self):
         self.clear()
-        self.score = 0
+        self.setposition(0, 0)
+        self.write(f"Game-Over\nLevel:{self.level}", align="center", font=FONT)
+        self.level = 0
 
